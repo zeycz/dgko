@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f0ff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.confetti {
+    position: absolute;
+    font-size: 30px;
+    color: #ffcc00;
+    animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        top: -10%;
+        opacity: 1;
+        transform: translateX(0) rotate(0deg);
+    }
+    100% {
+        top: 110%;
+        opacity: 0;
+        transform: translateX(200px) rotate(360deg);
+    }
+}
+
+.confetti:nth-child(1) { left: 10%; animation-delay: 0s; animation-duration: 4s; }
+.confetti:nth-child(2) { left: 20%; animation-delay: 1s; animation-duration: 5s; }
+.confetti:nth-child(3) { left: 30%; animation-delay: 2s; animation-duration: 6s; }
+.confetti:nth-child(4) { left: 40%; animation-delay: 0.5s; animation-duration: 5.5s; }
+.confetti:nth-child(5) { left: 50%; animation-delay: 1.5s; animation-duration: 4.5s; }
+.confetti:nth-child(6) { left: 60%; animation-delay: 2.5s; animation-duration: 6s; }
+.confetti:nth-child(7) { left: 70%; animation-delay: 3s; animation-duration: 5s; }
+.confetti:nth-child(8) { left: 80%; animation-delay: 0.3s; animation-duration: 6.5s; }
+.confetti:nth-child(9) { left: 90%; animation-delay: 1.8s; animation-duration: 4.2s; }
+.confetti:nth-child(10) { left: 15%; animation-delay: 1.2s; animation-duration: 4.7s; }
+.confetti:nth-child(11) { left: 25%; animation-delay: 2.1s; animation-duration: 5.1s; }
+.confetti:nth-child(12) { left: 35%; animation-delay: 0.9s; animation-duration: 6.3s; }
+.confetti:nth-child(13) { left: 45%; animation-delay: 1.7s; animation-duration: 4.9s; }
+.confetti:nth-child(14) { left: 55%; animation-delay: 2.3s; animation-duration: 5.4s; }

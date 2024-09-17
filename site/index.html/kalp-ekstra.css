@@ -1,0 +1,25 @@
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        color: #d953cd;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #FF69B4;
+    }
+    100% {
+        transform: scale(1);
+        color: #d953cd;
+    }
+}
+
+.heart-extra {
+    position: fixed;
+    font-size: 100px; 
+    color: #d953cd;
+    animation: pulse 2s infinite; 
+    bottom: 10px; 
+    right: 10px; 
+    z-index: 1000; 
+}

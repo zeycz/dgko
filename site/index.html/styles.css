@@ -1,0 +1,17 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    position: relative; 
+}
+
+.photo {
+    position: absolute; 
+    bottom: 110px; 
+    left: 20px; 
+    width: 350px; 
+    height: auto; 
+}
+
+img:hover {
+    transform: scale(1.1); /* Fareyle üzerine gelince büyütür */
+}
